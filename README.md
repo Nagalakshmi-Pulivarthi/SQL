@@ -1,48 +1,23 @@
 # SQL Portfolio
 
 ## Introduction
-Welcome to my SQL portfolio! Here, I showcase a variety of SQL queries and projects that demonstrate my data analysis and database management skills.
+Welcome to my SQL portfolio! Here, I showcase a variety of SQL queries and projects that demonstrate my data analysis and database management and data manipulation skills.
+## About Me
 
 
 ## Sales Analysis
 ### Overview
 - Analyze sales data to identify trends and patterns.
+  
+### Sales Data Description
+This dataset represents synthetic sales data generated for practice purposes only. It is not real-time or based on actual business operations, and should be used solely for educational or testing purposes. The dataset contains information that simulates sales transactions across different products, regions, and customers. Each row represents an individual sale event with various details associated with it.
 
-### Queries
-- [Total Sales by Region](queries/sales/total_sales_by_region.sql)
-- [Top 5 Sales Representatives](queries/sales/top_5_sales_reps.sql)
+### Columns in the Data set:
+1.	Product_ID: Unique identifier for each product sold. Randomly generated for practice purposes.
+2.	Sale_Date: The date when the sale occurred. Randomly selected from the year 2023.
+3.	Sales_Rep: The sales representative responsible for the transaction. The dataset includes five random sales representatives (Alice, Bob, Charlie, David, Eve).
+4.	Region: The region where the sale took place. The possible regions are North, South, East, and West.
+5.	Sales_Amount: The total sales amount for the transaction, including discounts if any. Values range from 100 to 10,000 (in currency units).
+6.	Quantity_Sold: The number of units sold in that transaction, randomly generated between 1 and 50.
+7.	Product_Category: The category of the product sold. Categories include Electronics, Furniture, Clothing, and Food.
 
-## Customer Segmentation
-### Overview
-- Segment customers based on purchase behavior and demographics.
-
-### Queries
-- [Customer Segmentation by Spending](queries/customer_segmentation/spending_segmentation.sql)
-- [Customer Lifetime Value](queries/customer_segmentation/clv.sql)
-
-## Data Cleaning
-### Overview
-- Clean and preprocess raw data for analysis.
-
-### Queries
-- [Remove Duplicates](queries/data_cleaning/remove_duplicates.sql)
-- [Handle Missing Values](queries/data_cleaning/handle_missing_values.sql)
-
-## Advanced SQL Techniques
-### Overview
-- Demonstrate advanced SQL skills and techniques.
-
-### Queries
-- [Running Total Calculation](queries/advanced/running_total.sql)
-- [Moving Average](queries/advanced/moving_average.sql)
-
-## Visualizations and Reports
-### Overview
-- Visualize data and create interactive reports.
-
-### Projects
-- [Sales Dashboard](visualizations/sales_dashboard)
-- [Customer Insights Report](visualizations/customer_insights_report)
-
-## Contact
-Feel free to reach out to me on [LinkedIn](https://linkedin.com/in/yourprofile) 
