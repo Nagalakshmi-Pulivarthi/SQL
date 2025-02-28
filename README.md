@@ -9,7 +9,7 @@ Welcome to my SQL portfolio! Here, I showcase a variety of SQL queries and proje
 # Mysql Projects
 
 
-## 1.Sales Analysis  - Analyze sales data to identify trends and patterns.
+## 1.[Sales Analysis](Sales_Analysis)  - Analyze sales data to identify trends and patterns.
 
 
   
